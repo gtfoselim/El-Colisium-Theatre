@@ -1,0 +1,46 @@
+.form-group i{
+    position: absolute;
+    visibility: hidden;
+  
+  }
+  .form-group small{
+    visibility: hidden;
+    padding-left: 20px;
+  
+  }
+  
+  .form-group.valid input{
+    border-color: #18d26e;
+  
+  }
+  .form-group.valid select{
+    border-color: #18d26e;
+  
+  }
+  
+  .form-group.valid i.bi-check-circle-fill{
+    visibility: visible;
+    color: #18d26e;
+  
+  }
+  
+  .form-group.invalid input{
+    border-color: #ed3c0d;
+  
+  }
+  .form-group.invalid select{
+    border-color: #ed3c0d;
+  
+  }
+  
+  .form-group.invalid i.bi-exclamation-circle-fill{
+    visibility: visible;
+    color: #ed3c0d;
+  
+  }
+  
+  .form-group.invalid small{
+    visibility: visible;
+    color: #ed3c0d;
+  
+  }
